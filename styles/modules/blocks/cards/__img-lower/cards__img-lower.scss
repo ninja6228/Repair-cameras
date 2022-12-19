@@ -1,0 +1,15 @@
+.cards__img-lower {
+  width: 100%;
+}
+
+@media screen and (max-width: 954px) {
+  .cards__img-lower {
+    width: 70.3%;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .cards__img-lower {
+    width:100%;
+  }
+}

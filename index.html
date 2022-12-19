@@ -1,24 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ремонт плёночных фотоаппаратов</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/css/index.css">
+  <title>Ремонт плёночных фотоаппаратов</title>
 </head>
-<body>
-    <div class="page">
-        <header>
 
-        </header>
+<body class="page">
 
-        <main>
-
-        </main>
-
-        <footer>
-
-        </footer>
+  <header class="header">
+    <div class="logo">
+      <div class="logo__title">C-Works</div>
+      <div class="logo__table">мы открылись</div>
     </div>
+    <h1 class="header__title">Ремонт</h1>
+    <h2 class="header__subtile">Плёночных фотоаппаратов</h2>
+
+    <div class="form-email">
+      <form class="form-email__wrapper header__form" action="#" name="emailForm">
+        <input name="email" class="form-email__string header__string" type="email" required>
+        <button class="form-email__button header__button" type="submit"></button>
+      </form>
+      <small class="form-email__inscription">Напишите нам и мы свяжемся с вами.</small>
+    </div>
+
+  </header>
+  <main>
+    <section class="cards">
+      <div class="cards__wrapper">
+        <img class="cards__img-upper" src="./images/vectot-1.png" alt="фотоаппарат">
+        <div class="cards__figure-upper"></div>
+      </div>
+      <div class="cards__wrapper">
+        <div class="cards__figure-lower"></div>
+        <img class="cards__img-lower" src="./images/vector-2.png" alt="фотоаппарат">
+      </div>
+    </section>
+    <section class="promo">
+      <h2 class="promo__text">Мы ремонтируем плёночные фотоаппараты. Полносстью механические камеры, относительно современные камеры 
+        на электронике, проводим CLA камер, принимаем в зачёт оплаты сломаные тушки 
+        и объективы.
+      </h2>
+      <h2 class="block-title">Для энтузиастов, от энтузиастов &#128072;</h2>
+      <blockquote class="promo__slogan"></blockquote>
+    </section>
+    <section class="services">
+      <ul class="services__wrapper-card">
+        <li class="card services__card">
+          <h2 class="card__title services__card-title">CLA</h2>
+          <h3 class="card__subtitle services__card-subtitle">Чистка камер.</h3>
+          <p class="card__desc services__card-desc">Замена уплотнителей, дампфера зеркала, смазка механизмов, юстировка.
+          </p>
+          <p class="card__price services__card-price">от 2000&#8381;</p>
+        </li>
+        <li class="card services__card">
+          <h2 class="card__title services__card-title">Ремонт</h2>
+          <h3 class="card__subtitle services__card-subtitle">Ремонт камер.</h3>
+          <p class="card__desc services__card-desc">Ремонт механизмов, замена деталей, пайка электроники, адаптация
+            питания.</p>
+          <p class="card__price services__card-price">от 2500&#8381;</p>
+        </li>
+      </ul>
+    </section>
+    <section class="warranty">
+      <h2 class="block-title">Полная гарантия &#9889;</h2>
+      <ul class="warranty__wrapper-card">
+        <li class="card warranty__card">
+          <h2 class="card__title warranty__card-title">CLA</h2>
+          <p class="card__desc  warranty__card-desc">После CLA мы даем гарантию на 1 год, в случае беды мы заново
+            обслужим вашу камеру.</p>
+        </li>
+        <li class="card warranty__card">
+          <h2 class="card__title warranty__card-title">Ремонт</h2>
+          <p class="card__desc warranty__card-desc">После ремонта мы даем гарантию на 3 месяца или 6 месяцев.</p>
+        </li>
+        <li class="card warranty__card">
+          <h2 class="card__title warranty__card-title">Пайка и адаптация</h2>
+          <p class="card__desc warranty__card-desc">После пайки и адаптации питания мы даем гарантию
+            на 1 год.</p>
+        </li>
+        <li class="card warranty__card">
+          <h2 class="card__title warranty__card-title">Осмотр</h2>
+          <p class="card__desc warranty__card-desc">Осмотр камеры — бесплатен, если мы что-то сломаем, поменяем деталь
+            сами.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="support">
+      <h2 class="block-title">Поддержите нас &#129309;</h2>
+      <button type="button" class="support__button">Напишите нам если хотите помочь!</button>
+      <p class="support__text">Ещё вы сможете безвозмездно поддержать нас на Patreon, пока мы ещё создали аккаунт, но
+        как только это сделаем, сообщим вам.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__line"></div>
+    <div class="logo">
+      <div class="logo__title">C-Works</div>
+      <div class="logo__table">мы открылись</div>
+    </div>
+    <div class="form-email">
+      <form class="form-email__wrapper footer__form" action="#" name="emailForm">
+        <input name="email" class="form-email__string footer__string" type="email" required>
+        <button class="form-email__button footer__button" type="submit"></button>
+      </form>
+      <small class="form-email__inscription">Напишите нам и мы свяжемся с вами.</small>
+    </div>
+    <small class="footer__copyright">&copy; C-Works, 2021.</small>
+  </footer>
+  <script src="./script/index.js"></script>
 </body>
+
 </html>

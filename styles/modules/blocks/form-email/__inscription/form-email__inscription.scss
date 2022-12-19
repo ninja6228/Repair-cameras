@@ -1,0 +1,13 @@
+.form-email__inscription {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #47474C;
+}
+
+@media screen and (max-width: 650px) {
+  .form-email__inscription {
+    margin-left: 0;
+  }
+}

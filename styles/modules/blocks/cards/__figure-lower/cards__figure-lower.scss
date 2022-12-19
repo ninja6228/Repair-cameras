@@ -1,0 +1,12 @@
+.cards__figure-lower {
+  width: 100%;
+  background-color: #25E197;
+  border-radius: 10px;
+}
+
+@media screen and (max-width:650px) {
+  .cards__figure-lower {
+    height: 124px;
+    border-radius: 4px;
+  }
+}

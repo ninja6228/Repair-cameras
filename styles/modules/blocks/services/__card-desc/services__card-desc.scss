@@ -1,0 +1,15 @@
+.services__card-desc {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  color: #8E8E98;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width:650px) {
+  .services__card-desc {
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 100px;
+  }
+}

@@ -1,0 +1,11 @@
+.cards__wrapper {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width:650px) {
+  .cards__wrapper {
+    flex-wrap: wrap;
+  }
+}

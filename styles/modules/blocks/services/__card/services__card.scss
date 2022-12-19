@@ -1,0 +1,10 @@
+.services__card {
+  width: 100%;
+  padding: 40px 40px;
+}
+
+@media screen and (max-width:650px) {
+  .services__card {
+    padding: 20px 20px;
+  }
+}

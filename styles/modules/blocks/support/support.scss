@@ -1,0 +1,19 @@
+.support {
+  padding: 60px 160px;
+}
+
+@media screen and (max-width: 1350px) {
+  .support {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .support {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+  }
+}

@@ -1,0 +1,13 @@
+.warranty__card-desc {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #8E8E98;
+}
+
+@media screen and (max-width: 650px) {
+  .warranty__card-desc {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
