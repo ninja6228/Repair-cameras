@@ -5,8 +5,8 @@ const footerButton = document.querySelector('.footer__button');
 const headerString = document.querySelector('.header__string');
 const footerString = document.querySelector('.footer__string');
 //функция для изменения текста в зависимости от размера экрана
-window.onresize = SizeWin;
-function SizeWin() {
+window.onresize = sizeWin;
+function sizeWin() {
   if (window.screen.availWidth < 515) {
     headerButton.textContent = '✌';
     footerButton.textContent = '✌';
@@ -16,7 +16,7 @@ function SizeWin() {
     footerButton.textContent = 'Отремонтируйте камеру ✌';
   }
 }
-SizeWin();
+sizeWin();
 // изменение текста в кнопке при отправки формы в шапке
 headerForm.addEventListener('submit', function (evt) {
   evt.preventDefault();
