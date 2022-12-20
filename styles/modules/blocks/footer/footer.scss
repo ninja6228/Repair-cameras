@@ -1,24 +1,27 @@
 .footer {
-  padding: 180px 160px 60px;
+  margin: 180px 160px 60px 160px;
+  border-top: 2px solid #151515;
+  padding-top: 60px;
 }
 
 @media screen and (max-width: 1350px) {
   .footer {
-    padding-left: 60px;
-    padding-right: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
   }
 }
 
 @media screen and (max-width: 954px) {
   .footer {
-    padding-top: 150px;
+    margin-top: 150px;
   }
 }
 
 @media screen and (max-width: 650px) {
   .footer {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-top: 30px;
   }
 }

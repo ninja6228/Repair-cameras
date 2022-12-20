@@ -23,12 +23,10 @@ headerForm.addEventListener('submit', function (evt) {
   if (window.screen.availWidth > 515) {
     headerButton.textContent = 'Круто, спасибо за доверие!';
     headerString.value = '';
-    footerString.value = '';
   }
   else {
     headerButton.textContent = '👍';
     headerString.value = '';
-    footerString.value = '';
   }
 });
 // изменение текста в кнопке при отправки формы в подвале
@@ -36,9 +34,11 @@ footerForm.addEventListener('submit', function (evt) {
   evt.preventDefault();
   if (window.screen.availWidth > 515) {
     footerButton.textContent = 'Круто, спасибо за доверие!';
+    footerString.value = '';
   }
   else {
     footerButton.textContent = '👍';
+    footerString.value = '';
   }
 });
 
