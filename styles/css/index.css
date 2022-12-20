@@ -319,6 +319,10 @@
   margin: 0;
 }
 
+.card__link {
+  text-decoration: none;
+}
+
 .services {
   padding: 60px 160px;
 }
@@ -377,6 +381,7 @@
   font-size: 32px;
   line-height: 32px;
   padding-bottom: 40px;
+  color: #fff;
 }
 
 @media screen and (max-width: 650px) {
@@ -451,7 +456,6 @@
 }
 .warranty__card {
   width: 48%;
-  min-height: 153px;
   border-radius: 10px;
   padding: 20px 20px;
 }
