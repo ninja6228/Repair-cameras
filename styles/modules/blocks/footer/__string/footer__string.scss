@@ -1,0 +1,12 @@
+.footer__string {
+  max-width: 348px;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+@media screen and (max-width: 650px) {
+  .footer__string {
+    min-width: 229px;
+    margin-bottom: 10px;
+  }
+}

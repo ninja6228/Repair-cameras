@@ -1,0 +1,12 @@
+.warranty__card {
+  width: 48%;
+  border-radius: 10px;
+  padding: 20px 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .warranty__card {
+    min-height: 148px;
+    width: 100%;
+  }
+}

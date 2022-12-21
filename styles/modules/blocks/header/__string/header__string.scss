@@ -1,0 +1,19 @@
+.header__string {
+  width: 348px;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 954px) {
+  .header__string {
+    width: 100%;
+    max-width: 427px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header__string {
+    min-width: 229px;
+  }
+}
+

@@ -1,0 +1,25 @@
+.form-email__button {
+  padding: 0;
+  border: none;
+  width: 221px;
+  height: 50px;
+  background: #47474C;
+  border-radius: 0px 8px 8px 0px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.375px;
+  color: #fff;
+  transition-duration: .5s;
+  cursor: pointer;
+}
+
+.form-email__button:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 650px) {
+  .form-email__button {
+    font-size: 10px;
+    line-height: 10px;
+  }
+}

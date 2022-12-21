@@ -1,0 +1,10 @@
+{
+  "liveSassCompile.settings.includeItems": [
+    "/styles/index.scss"
+  ],
+  "liveSassCompile.settings.formats": [
+    {
+      "savePath": "/styles/css"
+    }
+  ]
+}

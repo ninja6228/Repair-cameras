@@ -1,0 +1,13 @@
+.services__card-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #8E8E98;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width:650px) {
+  .services__card-title {
+    padding-bottom: 10px;
+  }
+}

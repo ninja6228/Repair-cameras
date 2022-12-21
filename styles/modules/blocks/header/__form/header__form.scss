@@ -1,0 +1,15 @@
+.header__form {
+  margin-top: 230px;
+}
+
+@media screen and (max-width: 954px) {
+  .header__form {
+    margin-top: 470px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header__form {
+    margin-top: 260px;
+  }
+}
